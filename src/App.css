@@ -25,6 +25,11 @@
     padding-right: 5px;
 }
 
+.menu li a:hover{
+    color:#B76FFF;
+
+}
+
 button{
     background-color: #F9FD3D;
     border: none;
@@ -35,6 +40,8 @@ button{
     color: #2F3E38;
     border-radius: 40px;
 }
+
+
 
 .statement{
     text-align: center;
