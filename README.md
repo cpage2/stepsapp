@@ -14,7 +14,7 @@ Project was made as part of the Women Who Code's Front End Friday Challenge.
 The design is given through Figma, and participants are allowed to code it in whatever languages they want to use.
 
 
-![Alt text](src/assets/fefChallenge.jpg)
+![Alt text](src/assets/fefChallenge.jpg =x200)
 
 
 
