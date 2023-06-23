@@ -1,32 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
 
+.row{
+    margin-top: 10px;
+}
 
 #logo{
     font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
 }
-
 
 
 .menu li{
     list-style: none;
     display: inline-block;
+    margin-right: 30%;
 }
 
 .menu li a{
-    color: white;
+    color:#2F3E38;
     text-decoration: none;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
+    padding-right: 5px;
 }
 
 button{
     background-color: #F9FD3D;
     border: none;
-    padding: 5px 10px;
-    width: 75px;
+    height:46px;
+    width: 125px;
     font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #2F3E38;
+    border-radius: 40px;
 }
 
+.statement{
+    text-align: center;
+    margin-top: 100px;
+}
 
 #stattext{
     font-family: 'Anton', sans-serif;
+    font-size: 120px;
+    color: #2F3E38;
+   
+}
+
+.shoes{
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+.shoes #shoeOne{
+    padding-right: 20px;
 }
