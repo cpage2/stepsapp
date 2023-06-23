@@ -1,1 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
 
+
+#logo{
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: #F9FD3D;
+    border: none;
+    padding: 5px 10px;
+    width: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#stattext{
+    font-family: 'Anton', sans-serif;
+}

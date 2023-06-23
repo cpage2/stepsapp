@@ -1,30 +1,40 @@
 
 import './App.css';
-import statementImg from './assets/statement.png';
 import shoeOne from './assets/frontendfriday-shoe 1.png';
 import shoeTwo from './assets/pexels-ray-piedra-1464625 1.png';
 
 function App() {
 
-
-
-
   return (
-    <><div className="top">
-      <p id='logo' style={{color: "white"}}>STEPS</p>
+    <>
+    
+    
+    {/* Menu */}
+    <div className = "container">
+      <div className="row">
+
+          <div className = "col">
+          <p id='logo' style={{color: "white"}}>STEPS</p>
+          </div>
 
 
-      <ul className="menu">
-        <li><a href='#'>About</a></li>
-        <li><a href='#'>Shop</a></li>
-        <li><button>Cart</button></li>
-      </ul>
+          <div className="col">
+              <ul className="menu">
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Shop</a></li>
+                <li><button type='button'>Cart</button></li>
+              </ul>
+          </div>
+
+
+        </div>
+
 
     </div>
+   
     
     <div className='statement'>
-          <img src={statementImg}alt='img'/>
-
+          <h1 id='stattext'>SHOES FOR EVERY DAY</h1>
       </div>
 
       <div className='shoes'>
